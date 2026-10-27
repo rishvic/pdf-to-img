@@ -100,6 +100,7 @@ export async function pdf(
     standardFontDataUrl: path.join(pdfjsPath, `standard_fonts${path.sep}`),
     cMapUrl: path.join(pdfjsPath, `cmaps${path.sep}`),
     cMapPacked: true,
+    wasmUrl: path.join(pdfjsPath, `wasm${path.sep}`),
     ...options.docInitParams,
     data,
   }).promise;
