@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["es2021"],
+    "skipLibCheck": true,
+    "module": "node16",
+    "target": "es2020",
+    "moduleResolution": "node16",
+    "downlevelIteration": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "outDir": "dist"
+  }
+}

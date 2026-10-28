@@ -20,7 +20,7 @@
   ],
   "repository": "https://github.com/k-yle/pdf-to-img",
   "scripts": {
-    "build": "npm run clean && tsc",
+    "build": "npm run clean && tsc -p tsconfig.lib.json",
     "clean": "rimraf dist",
     "lint": "eslint .",
     "test": "vitest --pool=forks",
